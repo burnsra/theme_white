@@ -30,5 +30,9 @@
     <package-redirections android:name="com.twitter.android"
         android:minSdkVersion="7"
         android:resource="@xml/com_twitter_android" />
+        
+    <package-redirections android:name="com.android.systemui"
+        android:minSdkVersion="7"
+        android:resource="@xml/com_android_systemui" />
 
 </theme-redirections>
