@@ -21,6 +21,9 @@
     package="com.tmobile.theme.ThemeWhite"
     android:hasCode="false">
 
+    <!-- Set the minimum and target DSK versions. -->
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="9" />
+
     <!-- Make sure this theme APK only shows up on appropriate devices. -->
     <uses-feature android:name="com.tmobile.software.themes" />
 

@@ -19,6 +19,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:pluto="http://www.w3.org/2001/pluto.html">
 
+    <package-redirections android:name="android" android:resource="@xml/android" android:minSdkVersion="7" />
+    <package-redirections android:name="com.android.systemui" android:resource="@xml/com_android_systemui" android:minSdkVersion="7" />
+
     <package-redirections android:name="org.adwfreak.launcher"
         android:minSdkVersion="7"
         android:resource="@xml/org_adwfreak_launcher" />
